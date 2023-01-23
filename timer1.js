@@ -1,6 +1,6 @@
 // retreiving command line data starting with the third line
 // filtering out negative numbers, filtering out NaN
-let input = process.argv.slice(2).filter(isPositive).filter(isNumber);
+let input = process.argv.slice(2);
 
 const isPositive = function(input) {
   if (input > 0) {
